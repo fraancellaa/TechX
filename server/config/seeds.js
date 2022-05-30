@@ -15,7 +15,7 @@ db.once('open', async () => {
       name: 'Apple Mouse',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'apple-mouse.jpg',
+      image: 'apple-mouse.png',
       price: 150,
       quantity: 500
     },
