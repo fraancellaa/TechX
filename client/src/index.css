@@ -1,9 +1,9 @@
 :root {
-  --primary: #175a6a;
-  --secondary: hsl(59, 88%, 62%);
-  --tertiary: #B12704;
+  --primary: #b081bd;
+  --secondary: hsl(255, 68%, 77%);
+  --tertiary: #b10404;
   --light: #fafafa;
-  --dark: #272f32;
+  --dark: #273230;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);

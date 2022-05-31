@@ -63,8 +63,8 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">
-          🛒
+        <span role="img" aria-label="money">
+        💵
         </span>
       </div>
     );
@@ -73,7 +73,7 @@ const Cart = () => {
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
-        [close]
+        [Close]
       </div>
       <h2>Shopping Cart</h2>
       {state.cart.length ? (
@@ -88,14 +88,14 @@ const Cart = () => {
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Checkout</button>
             ) : (
-              <span>(log in to check out)</span>
+              <span>(Please log in to check out)</span>
             )}
           </div>
         </div>
       ) : (
         <h3>
-          <span role="img" aria-label="shocked">
-            😱
+          <span role="img" aria-label="raisingbrow">
+          🤨
           </span>
           You haven't added anything to your cart yet!
         </h3>
