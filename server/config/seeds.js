@@ -1,5 +1,5 @@
 const db = require('./connection');
-const { User, Product, } = require('../models');
+const { User, Product, Category } = require('../models');
 
 db.once('open', async () => {
     await Category.deleteMany();
@@ -45,7 +45,7 @@ db.once('open', async () => {
       name: 'Keyboard',
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'keybrd2.jpg',
+      image: 'keyboard.jpg',
       category: categories[0]._id,
       price: 200,
       quantity: 50
