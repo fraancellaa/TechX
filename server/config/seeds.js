@@ -47,7 +47,7 @@ db.once('open', async () => {
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
       image: 'keyboard.jpg',
       category: categories[0]._id,
-      price: 200,
+      price: 130,
       quantity: 50
     },
     {
@@ -56,7 +56,7 @@ db.once('open', async () => {
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
       image: 'macbook-pro.jpg',
       category: categories[0]._id,
-      price: 1500,
+      price: 1499.99,
       quantity: 100
     },
     {
@@ -66,16 +66,61 @@ db.once('open', async () => {
       image: 'mouse.jpg',
       category: categories[0]._id,
       price: 19.99,
-      quantity: 30
+      quantity: 50
     },
     {
-      name: 'Windows Laptop',
+      name: 'Airpods',
       description:
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'windows-laptop.jpg',
-      category: categories[0]._id,
-      price: 650,
-      quantity: 30
+      image: 'airpods.jpg',
+      category: categories[1]._id,
+      price: 230,
+      quantity: 40
+    },
+    {
+      name: 'Beats Studio 3',
+      description:
+        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+      image: 'beats.jpg',
+      category: categories[1]._id,
+      price: 218,
+      quantity: 33
+    },
+    {
+      name: 'Amazon Echo Dot',
+      description:
+        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+      image: 'echo-dot.jpg',
+      category: categories[1]._id,
+      price: 29.99,
+      quantity: 80
+    },
+    {
+      name: 'Adapter',
+      description:
+        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+      image: 'adapter.jpeg',
+      category: categories[1]._id,
+      price: 60,
+      quantity: 65
+    },
+    {
+      name: 'Digital Clock',
+      description:
+        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+      image: 'digital-clock.jpg',
+      category: categories[1]._id,
+      price: 34.56,
+      quantity: 15
+    },
+    {
+      name: 'iPad Pro',
+      description:
+        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+      image: 'ipad-pro.jpg',
+      category: categories[1]._id,
+      price: 799,
+      quantity: 40
     },
   ]);
 
