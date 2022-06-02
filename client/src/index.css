@@ -139,7 +139,7 @@ input:focus {
 }
 
 .container {
-  width: 85%;
+  width: 50%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -169,7 +169,7 @@ input:focus {
 }
 
 .my-1 {
-  margin-top: var(--spacing-one);
+  margin-top: 300px;
   margin-bottom: var(--spacing-one);
 }
 

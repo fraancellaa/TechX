@@ -32,7 +32,7 @@ function Login(props) {
 
   return (
     <>
-    <div className="container my-1">
+    <div className="container my-1" style={{backgroundColor: "#00C0FF", display: "flex", alignItems: "center", flexDirection: "column", padding: "30px"}}>
       <Link to="/signup">← Go to Signup</Link>
 
       <h2 style={{color: "white"}}>Login</h2>
@@ -40,7 +40,7 @@ function Login(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="email" style={{color: "white"}}>Email address:</label>
           <input
-          style={{color: "white"}}
+          
             placeholder="youremail@test.com"
             name="email"
             type="email"
