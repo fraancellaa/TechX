@@ -16,6 +16,7 @@
 html,
 body {
   min-height: 100%;
+  
 }
 
 body {
@@ -26,6 +27,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  
 }
 
 h1,
@@ -38,6 +40,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  
 }
 
 h1 {
@@ -80,7 +83,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: blue;
 }
 
 header a {
@@ -197,10 +200,24 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  
 }
 
 .error-text {
   color: var(--error);
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  color: white;
+}
+
+.category-container{
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 768px) {

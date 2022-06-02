@@ -47,6 +47,7 @@ function CategoryMenu() {
   
 
   return (
+    <div className="category-container">
     <DropdownButton id="dropdown-basic-button" title="Choose a Category:">
   <Dropdown.Item href="#/action-1"> 
       {categories.map((item) => (
@@ -64,6 +65,7 @@ function CategoryMenu() {
       {/* <h2>Choose a Category:</h2> */}
      
     </DropdownButton>
+    </div>
   );
 }
 

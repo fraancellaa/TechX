@@ -5,6 +5,8 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
+import Button from 'react-bootstrap/Button';
+
 function ProductItem(item) {
   const [state, dispatch] = useStoreContext();
 
@@ -40,6 +42,7 @@ function ProductItem(item) {
   }
 
   return (
+    <>
     <div className="card px-1 py-1">
       <Link to={`/${_id}`}>
         <img
@@ -52,8 +55,9 @@ function ProductItem(item) {
         <div>{quantity} {pluralize("item", quantity)} in stock</div>
         <span>${price}</span>
       </div>
-      <button onClick={addToCart}>Add to cart</button>
+      <Button onClick={addToCart}>Add to cart</Button>
     </div>
+    </>
   );
 }
 
