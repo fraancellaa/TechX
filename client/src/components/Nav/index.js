@@ -44,10 +44,12 @@ function Nav() {
 
   return (
     <header className="flex-row px-1">
-      <h1>
-        <Link to="/">
-          <span role="img" aria-label="electronics">💻📲</span>
+      <h1 style={{marginLeft: "20px"}}>
+        <Link to="/" style={{textDecoration: "none"}}>
+        <img src="/images/internet.png" alt="TechX-Logo" style={{width: "50px", height: "50px", marginRight: "15px"}}></img>
+        
           TechX
+        
         </Link>
       </h1>
 
