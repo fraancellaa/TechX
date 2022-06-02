@@ -34,11 +34,12 @@ function Signup(props) {
     <div className="container my-1">
       <Link to="/login">← Go to Login</Link>
 
-      <h2>Signup</h2>
+      <h2 style={{color: "white"}}>Signup</h2>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2">
-          <label htmlFor="firstName">First Name:</label>
+          <label htmlFor="firstName" style={{color: "white"}}>First Name:</label>
           <input
+          style={{color: "white"}}
             placeholder="First"
             name="firstName"
             type="firstName"
@@ -47,8 +48,9 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="lastName">Last Name:</label>
+          <label htmlFor="lastName" style={{color: "white"}}>Last Name:</label>
           <input
+          style={{color: "white"}}
             placeholder="Last"
             name="lastName"
             type="lastName"
@@ -57,7 +59,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email" style={{color: "white"}}>Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"
@@ -67,7 +69,7 @@ function Signup(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
+          <label htmlFor="pwd" style={{color: "white"}}>Password:</label>
           <input
             placeholder="******"
             name="password"
