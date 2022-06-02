@@ -7,6 +7,9 @@ import {
 } from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
+import Dropdown from 'react-bootstrap/Dropdown'
+import DropdownButton from 'react-bootstrap/DropdownButton'
+import Button from 'react-bootstrap/Button';
 
 function CategoryMenu() {
   const [state, dispatch] = useStoreContext();
@@ -41,20 +44,26 @@ function CategoryMenu() {
     });
   };
 
+  
+
   return (
-    <div>
-      <h2>Choose a Category:</h2>
+    <DropdownButton id="dropdown-basic-button" title="Choose a Category:">
+  <Dropdown.Item href="#/action-1"> 
       {categories.map((item) => (
-        <button
+        <Button
+        className="category-btn"
           key={item._id}
           onClick={() => {
             handleClick(item._id);
           }}
         >
           {item.name}
-        </button>
-      ))}
-    </div>
+        </Button>
+        
+      ))}</Dropdown.Item>
+      {/* <h2>Choose a Category:</h2> */}
+     
+    </DropdownButton>
   );
 }
 

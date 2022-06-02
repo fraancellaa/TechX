@@ -1,0 +1,10 @@
+.cart-item{
+   margin: 30px;
+   border: solid 5px red;
+}
+
+.item-name {
+    margin: 30px;
+    border: solid 15px var(--secondary);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+}
