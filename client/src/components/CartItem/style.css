@@ -1,10 +1,10 @@
 .cart-item{
    margin: 30px;
-   border: solid 5px red;
+   border: solid 5px #0703FF;
 }
 
 .item-name {
     margin: 30px;
-    border: solid 15px var(--secondary);
+    border: solid 10px #0080FF;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
 }
