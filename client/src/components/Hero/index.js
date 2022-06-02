@@ -13,7 +13,7 @@ function Hero() {
   </p>
   <p className="main-btn-container">
     <Button variant="primary" className="signup-btn"><Link to="/signup" className="main-link">Signup</Link></Button>
-    <Button variant="outline-primary" className="login-btn"><Link to="/login" className="login-link-btn">Login</Link></Button>
+    <Button variant="outline-light" className="login-btn"><Link to="/login" className="login-link-btn">Login</Link></Button>
   </p>
         </div>
 

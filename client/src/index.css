@@ -80,6 +80,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  
 }
 
 header {
@@ -247,7 +248,7 @@ input:focus {
 
 .login-link-btn {
   text-decoration: none;
-
+  color: white;
 }
 
 .main-btn-container{
@@ -261,6 +262,10 @@ input:focus {
 
 .login-btn {
   margin: 25px;
+}
+
+.products-title {
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
