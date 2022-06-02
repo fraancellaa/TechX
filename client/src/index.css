@@ -268,6 +268,21 @@ input:focus {
   color: white;
 }
 
+.nav-signUp-login-buttons{
+    margin-left: 50px;
+ 
+}
+
+.nav-signUp-btn{
+  margin: 10px;
+  
+}
+
+.nav-login-btn{
+  margin: 10px;
+  
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;

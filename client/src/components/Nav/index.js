@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 function Nav() {
 
@@ -23,18 +24,20 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
-            <Link to="/signup">
+        <>
+        <div className="nav-signUp-login-buttons">
+        <Button className="nav-signUp-btn">
+            <Link to="/signup" style={{textDecoration: "none"}}>
               Signup
             </Link>
-          </li>
-          <li className="mx-1">
-            <Link to="/login">
+            </Button>
+            <Button className="nav-login-btn">
+            <Link to="/login" style={{textDecoration: "none"}}>
               Login
             </Link>
-          </li>
-        </ul>
+            </Button>
+            </div>
+         </>
       );
     }
   }
