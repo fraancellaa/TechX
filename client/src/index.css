@@ -242,6 +242,25 @@ input:focus {
 
 .main-link {
   color: white;
+  text-decoration: none;
+}
+
+.login-link-btn {
+  text-decoration: none;
+
+}
+
+.main-btn-container{
+  margin: 10px;
+  padding: 10px;
+}
+
+.signup-btn{
+  margin: 25px;
+}
+
+.login-btn {
+  margin: 25px;
 }
 
 @media screen and (max-width: 768px) {
