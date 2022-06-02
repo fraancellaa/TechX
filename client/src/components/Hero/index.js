@@ -7,12 +7,12 @@ function Hero() {
     return (
     <>
     <div className="hero-container">
-  <h1>Welcome to TechX</h1>
+  <h1>Welcome to <span className="TechX-title">TechX</span></h1>
   <p>
     A collection of the best tech products on the Market
   </p>
   <p>
-    <Button bsStyle="primary"><Link to="/signup">← Go to Signup</Link></Button>
+    <Button bsStyle="default"><Link to="/signup" className="main-link">← Go to Signup</Link></Button>
   </p>
         </div>
 
