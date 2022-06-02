@@ -3,6 +3,7 @@ import ProductList from "../components/ProductList";
 import Cart from "../components/Cart";
 import CategoryMenu from "../components/CategoryMenu";
 import Hero from "../components/Hero";
+import Footer from "../components/Footer";
 import './home.css'
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ProductList />
       <Cart />
     </div>
+    <Footer />
     </>
   );
 };
