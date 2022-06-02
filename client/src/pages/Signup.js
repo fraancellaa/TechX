@@ -39,7 +39,7 @@ function Signup(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="firstName" style={{color: "white"}}>First Name:</label>
           <input
-          style={{color: "white"}}
+          
             placeholder="First"
             name="firstName"
             type="firstName"
@@ -50,7 +50,7 @@ function Signup(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="lastName" style={{color: "white"}}>Last Name:</label>
           <input
-          style={{color: "white"}}
+         
             placeholder="Last"
             name="lastName"
             type="lastName"
