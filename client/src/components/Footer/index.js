@@ -14,7 +14,7 @@ function Footer() {
           <a href="#" class="btn btn-primary">Customer Service</a>
         </div>
         <div class="card-footer text-muted">
-          Project3: Francella Aguilar, Julian Esquivel, Jean Carlos
+          Project3: Francella Aguilar, Julian Esquivel, JeanCarlos Mulet
         </div>
       </div>
         </>
